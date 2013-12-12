@@ -1,8 +1,7 @@
 <?php namespace Demo\Repository;
 
 use Illuminate\Database\ConnectionResolverInterface as Resolver;
-//use \Illuminate\Support\Facades\DB;
-//$this->Database = DB::table('DEMO_Invoice_Item')
+
 use Mgallegos\LaravelJqgrid\Repositories\EloquentRepositoryAbstract;
 
 
