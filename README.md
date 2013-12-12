@@ -2,6 +2,10 @@
 
 A demo of [Laravel 4 JqGrid package](https://github.com/mgallegos/laravel-jqgrid).
 
+## Live demo 
+
+A live demo is available at .. 
+
 ## Server Requirements
 
 * PHP-compatible web server
@@ -28,6 +32,6 @@ The following steps describes how to setup a development environment on a GNU/Li
 1. [Enable use of Apache .htaccess files](https://help.ubuntu.com/community/EnablingUseOfApacheHtaccessFiles)
 1. Open your browser and go to http://localhost/demo/public/
 
-## Live demo 
+## License
 
-A live demo is available at .. 
+Laravel jqGrid package demo is open source software licensed under the MIT License.
