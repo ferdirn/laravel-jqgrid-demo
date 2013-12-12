@@ -4,7 +4,7 @@ A demo of [Laravel 4 JqGrid package](https://github.com/mgallegos/laravel-jqgrid
 
 ## Live demo 
 
-A live demo is available at .. 
+A live demo is available at http://goo.gl/s8uNBR 
 
 ## Server Requirements
 
