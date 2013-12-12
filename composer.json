@@ -1,7 +1,7 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
+	"name": "mgallegos/laravel-jqgrid-demo",
+	"description": "Laravel 4 jqGrid package demo",
+	"keywords": ["jqgrid", "laravel"],
 	"license": "MIT",
 	"require": {
 		"laravel/framework": "4.0.*",
