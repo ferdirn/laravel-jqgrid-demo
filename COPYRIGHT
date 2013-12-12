@@ -1,0 +1,28 @@
+All LaravelJqGrid Demo code is Copyright (c) 2013 by the original authors.
+
+LaravelJqGrid Demo includes works under other copyright notices and distributed
+according to the terms of the MIT License or a compatible license, including:
+
+Javascript
+
+  Twitter Bootstrap - Copyright 2013 Twitter Inc.
+    (http://getbootstrap.com/)
+
+  jQuery - Copyright 2005, 2013 jQuery Foundation, Inc. and other contributors
+    (http://jquery.com/)
+  
+  jQuery UI - Copyright (c) jQuery Foundation and other contributors
+    (http://jqueryui.com/)
+
+  jQuery Grid - Copyright (c) 2008, Tony Tomov - tony(at)trirand(dot)com
+    (http://www.trirand.com/blog/)
+  
+Font
+
+  Font Awesome - Copyright © 2013 Dave Gandy - dave(at)fontawesome(dot)io
+    (http://fortawesome.github.io/Font-Awesome/)
+
+PHP
+
+  Laravel PHP Framework - Copyright (c) 2013, Taylor Otwell - taylorotwell(at)gmail(at)com
+    (http://laravel.com/)

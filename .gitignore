@@ -1,0 +1,11 @@
+.project
+.buildpath
+.settings/
+/app/config/*-local
+/bootstrap/compiled.php
+/public/assets/jquery-ui-v1.10.3/development-bundle
+/public/assets/jquery-ui-v1.10.3/index.html
+/vendor
+/workbench
+composer.phar
+composer.lock

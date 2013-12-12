@@ -1,0 +1,225 @@
+@CHARSET "UTF-8";
+ 
+/*IE10 Fix*/
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+body {
+  padding-top: 70px;
+}
+
+/*Sidebar menu*/
+
+.sidebar-nav {
+	min-height: 0;
+	box-shadow: 0 0 10px #BDBDBD;
+	-webkit-box-shadow: 0 0 10px #BDBDBD;
+	-moz-box-shadow: 0 0 10px #BDBDBD;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+/* ... custom classes*/
+
+.breadcrumb {
+	border: 1px solid #ddd;	
+}
+
+.breadcrumb-custom {
+	border-bottom:none;
+	margin: 0;
+	border-radius: 4px 4px 0 0;
+}
+
+/* Dashboard custom classes*/
+
+.panel-custom {
+	border-radius: 0 0 4px 4px;	
+}
+
+.dashboard-news-header{	
+	border-color: #d3cad7;
+	border-width: 0 0 1px;
+	border-style: solid;
+	padding: 8px;
+}
+
+.dashboard-news-header h1{
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+	margin: 0;
+}
+
+/* Navbar custom classes*/
+
+.navbar-company-logo{
+	margin: -10px 5px 0px 0px;	
+}
+
+.navbar-gravatar{
+	margin: -10px 5px 0px 0px;	
+}
+
+/* icon buttons */
+
+.box-dashboard{
+	border-bottom: 1px solid #DEDEDE;
+}
+
+/*Dahboard custom button classes*/
+
+.btn-dashboard-toggle{
+	margin-top: -5px;
+	border-radius: 15px;
+}
+
+.btn-group-custom,
+.btn-group-vertical-custom {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.btn-group-custom > .btn,
+.btn-group-vertical-custom > .btn {
+  position: relative;
+  float: left;
+  white-space: normal;
+}
+
+.btn-group-custom > .btn:hover,
+.btn-group-vertical-custom > .btn:hover,
+.btn-group-custom > .btn:focus,
+.btn-group-vertical-custom > .btn:focus,
+.btn-group-custom > .btn:active,
+.btn-group-vertical-custom > .btn:active,
+.btn-group-custom > .btn.active
+.btn-group-vertical-custom > .btn.active {
+  z-index: 2;
+}
+
+.btn-group-custom > .btn:focus
+.btn-group-vertical-custom > .btn:focus {
+  outline: none;
+}
+
+.btn-group-custom .btn + .btn,
+.btn-group-custom .btn + .btn-group,
+.btn-group-custom .btn-group + .btn,
+.btn-group-custom .btn-group + .btn-group {
+  margin-left: 10px;
+}
+
+.btn-group-vertical-custom > .btn {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+}
+
+.btn-group-vertical-custom .btn:not(:first-child),
+.btn-group-vertical-custom .btn-group-custom:not(:first-child){
+	margin-top: 10px;
+}
+
+.btn-group-vertical-custom .btn-group-custom{
+	width: 100%;
+}
+
+.btn-group-vertical-custom .btn-group-custom .btn:first-child{
+	width: 79%;
+	/*width: 82%; para pantallas min:1200*/	
+}
+
+.btn-group-vertical-custom .btn-group-custom .btn:not(:first-child){
+	margin-top: 0px;	
+}
+
+.btn-disabled-custom{
+	pointer-events: none;
+	cursor: default;
+	-webkit-box-shadow: none;
+	box-shadow: none;	
+}
+
+/*jqueryui custom classes*/
+
+.ui-widget {
+	font-family: inherit !important;
+	font-size: inherit !important;
+}
+
+.ui-autocomplete-category{
+	font-weight: bold;
+	padding: .2em .4em;
+	margin: .8em 0 .2em;
+	line-height: 1.5;	
+}
+
+.ui-autocomplete-custom{
+	border-color: rgb(102, 175, 233);
+	border-top: none;	
+}
+
+/* Custom form classes*/
+.help-block-custom{
+	margin: 0 !important;
+}
+
+.help-block-custom-bottom{
+	margin-bottom: 0 !important;
+}
+
+.sr-only-custom{
+	position: inherit !important;
+}
+
+.control-label-custom{
+	padding-top: 0px !important;
+}
+
+.help-block{
+	margin-bottom: 0px !important;;
+}
+
+.center .ui-jqgrid {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bs-callout {
+	margin: 20px 0;
+	padding: 20px;
+	border-left: 3px solid #eee;
+}
+
+.bs-callout-info {
+	background-color: #f4f8fa;
+	border-color: #bce8f1;
+}
+
+.bs-callout-warning {
+background-color: #faf8f0;
+border-color: #faebcc;
+}
+
+
+
+
+/*Media*/
+@media (max-width: 1199px) {
+  .app-block {
+    margin-top: 15px;
+  } 
+}
+
+@media (min-width: 1200px) {
+	
+}	
