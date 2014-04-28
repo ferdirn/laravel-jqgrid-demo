@@ -26,8 +26,6 @@ The following steps describes how to setup a development environment on a GNU/Li
 1. cd ./demo
 1. composer install
 1. chmod 777 -R ./app/storage/ 
-1. php artisan migrate;
-1. php artisan db:seed;
 1. Enable mod_rewrite Apache module
 1. [Enable use of Apache .htaccess files](https://help.ubuntu.com/community/EnablingUseOfApacheHtaccessFiles)
 1. Open your browser and go to http://localhost/demo/public/
